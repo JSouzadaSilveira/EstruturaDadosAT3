@@ -17,7 +17,7 @@ O programa desenvolvido pelo aluno e a sua justificativa deverá ser postado em 
 
 
 
-##Explicação:
+## Explicação:
 A ordem dos números exibidos na fila será diferente da ordem em que foram inseridos na lista porque, no passo 2, os dados são retirados da lista de forma ordenada do início para o fim e inseridos na pilha de forma invertida, do fim para o início. No passo 3, os dados são retirados da pilha na ordem inversa e inseridos na fila, resultando em uma ordem diferente da original.
 
 No passo 5, o programa repete o processo do passo 2 e 3, mas agora com os números de 6 a 10, que serão inseridos na lista depois dos números de 1 a 5. Como a inserção na fila é feita sempre no final, sem levar em conta a ordem original da lista, a ordem dos números exibidos na fila será 1 2 3 4 5 10 9 8 7 6, ou seja, diferente da ordem original da lista.
